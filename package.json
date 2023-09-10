@@ -1,0 +1,36 @@
+{
+  "name": "Weather_Project",
+  "version": "2.0.0",
+  "description": "",
+  "homepage": "https://github.com/daniellesarau/Weather_Project",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /Weather_Project/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniellesarau/Weather_Project.git"
+  },
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniellesarau/Weather_Project/issues"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "chart.js": "^4.3.2",
+    "lodash": "^4.17.21",
+    "modern-normalize": "^1.1.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "buffer": "^6.0.3",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
